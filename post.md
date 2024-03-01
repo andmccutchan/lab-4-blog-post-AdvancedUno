@@ -188,7 +188,7 @@ Serial.println(distance);
 delay(2000); // wait 2 seconds before next reading
 }
 ```
-<br>This code is first defining the TRIG pin and the ECHO pins. We then set the TRIG as an input and ECHO as an output.
+<br>This code is first defining the TRIG pin and the ECHO pins. We then set the TRIG as an input and ECHO as an output. The rest of the code then goes into detecting the distance by measuring the time it takes for an untrasonic pulse to go back and forth from an object.
 # Testing Number Display
 
 
